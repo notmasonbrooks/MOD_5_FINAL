@@ -1,0 +1,205 @@
+/* Full-screen video section */
+.video-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-section video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .video-overlay img {
+    max-width: 200px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 4rem 0;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  .navbar .navbar-nav {
+    text-align: center;
+
+  }
+
+  .navbar-nav .nav-link {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.2);
+  }
+
+  .custom-navbar {
+    background-color: #000000;
+  }
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ccc !important; /* Optional: lighter on hover */
+}
+
+.video-overlay {
+    text-align: center;
+    color: white;
+}
+
+
+
+h3 {
+    font-weight: lighter;
+    font-size: large;
+}
+
+.logo-fade {
+    opacity: 0;
+    animation: fadeInLogo 5s ease forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadeInLogo {
+    to {
+      opacity: 1;
+    }
+  }
+
+  .custom-input {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 8px;
+  }
+  
+  /* Make submit button grow on hover */
+  .custom-submit {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .custom-submit:hover {
+    transform: scale(1.1);
+  }
+
+  .about-card {
+    background-color: #111;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  /* Profile image style */
+  .about-card img {
+    max-width: 200px;
+    border-radius: 25px;
+    background-color: #000000;
+    margin-bottom: 1rem;
+ 
+  }
+  
+  /* Table Styling */
+  table.table th,
+  table.table td {
+    vertical-align: middle;
+  }
+
+.about-card h3 {
+    font-weight: bolder;
+}
+
+.about-card p {
+    font-weight: lighter;
+}
+
+.about-card .card-body {
+    text-align: center;
+  }
+
+
+  .about-card .card-body h3,
+  .about-card .card-body p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-media {
+    width: 80%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Center controls more precisely */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1); /* white arrows */
+  }
+
+  .service-section {
+    margin-bottom: 4rem;
+  }
+  
+  .accordion-item {
+    background-color: #111;
+    border: none;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .accordion-button {
+    background-color: #111;
+    color: white;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #222;
+  }
+  
+  .accordion-body ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+
+
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 1000;
+    cursor: pointer;
+  }

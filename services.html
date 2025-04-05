@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SERVICES</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white text-black">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-navbar fixed-top shadow">
+    <div class="container justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-5"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item mx-5"><a class="nav-link active" href="services.html">SERVICES</a></li>
+          <li class="nav-item mx-5"><a class="nav-link" href="portfolio.html">PORTFOLIO</a></li>
+          <li class="nav-item mx-5"><a class="nav-link" href="contact.html">CONTACT</a></li>
+          <li class="nav-item mx-5"><a class="nav-link" href="about.html">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Content -->
+  <div class="container py-5 mt-5">
+    <h1 class="text-center mb-5">SERVICES</h1>
+
+    <!-- Shooting -->
+    <section id="shooting" class="service-section">
+      <h2>Shooting</h2>
+      <p>Professional on-location and studio shooting tailored for your brand, event, or product.</p>
+      <div class="accordion" id="shootingAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shootingDetails">
+              More about Shooting
+            </button>
+          </h2>
+          <div id="shootingDetails" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Event Videography</li>
+                <li>Product Shoots</li>
+                <li>Music Videos</li>
+                <li>Studio & Green Screen Work</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editing -->
+    <section id="editing" class="service-section">
+      <h2>Editing</h2>
+      <p>High-quality editing services with cinematic pacing, color grading, and sound design.</p>
+      <div class="accordion" id="editingAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#editingDetails">
+              More about Editing
+            </button>
+          </h2>
+          <div id="editingDetails" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Video Assembly</li>
+                <li>Color Correction</li>
+                <li>Transitions & Motion Effects</li>
+                <li>Sound Mixing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <section id="social-media" class="service-section">
+      <h2>Social Media</h2>
+      <p>Optimize your content for all social platforms — vertical formats, reels, captions, and more.</p>
+      <div class="accordion" id="socialAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#socialDetails">
+              More about Social Media
+            </button>
+          </h2>
+          <div id="socialDetails" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Instagram Reels & TikToks</li>
+                <li>YouTube Shorts</li>
+                <li>Story Editing</li>
+                <li>Engagement Optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Crew Work -->
+    <section id="crew-work" class="service-section">
+      <h2>Crew Work</h2>
+      <p>Need an extra hand? I join projects as camera op, assistant, or support crew for productions.</p>
+      <div class="accordion" id="crewAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#crewDetails">
+              More about Crew Work
+            </button>
+          </h2>
+          <div id="crewDetails" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul>
+                <li>Camera Operating</li>
+                <li>Grip & Electric</li>
+                <li>Set PA</li>
+                <li>BTS Documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-black text-white py-4 w-100">
+    <div class="container-fluid text-center">
+      <div class="mb-3">
+        <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">
+          <i class="bi bi-instagram fs-3"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="text-white mx-3">
+          <i class="bi bi-linkedin fs-3"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" class="text-white mx-3">
+          <i class="bi bi-youtube fs-3"></i>
+        </a>
+      </div>
+      <p class="mb-0">&copy; 2025 happyfilms</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <button id="scrollTopBtn" onclick="scrollToTop()">⬆️</button>
+  <script src="scripts.js"></script>
+</body>
+</html>
